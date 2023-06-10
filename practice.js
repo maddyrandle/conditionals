@@ -14,3 +14,11 @@ if (username === "Oscar") {
 } else {
     console.log(`Nice to meet you, ${username}!`)
 }
+
+// Logical Operators with Conditionals
+
+var password = "";
+
+if (password.length >= 8 && password.includes("#")) {
+    console.log(`Got it. Your password is ${password}`)
+}
